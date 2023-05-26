@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>182933775213-noj94om7m3qd6b7smkv60db06rp9ijm2.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.182933775213-noj94om7m3qd6b7smkv60db06rp9ijm2</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>182933775213-nimkeo56noor0l9rqfnr11564j3itb8v.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBee3P-rNccaD8GKblyDheYwXgPi9a5gbA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>182933775213</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.listenfirstlabs.sessiontrackerios</string>
+	<key>PROJECT_ID</key>
+	<string>my-session-tracker-e23d2</string>
+	<key>STORAGE_BUCKET</key>
+	<string>my-session-tracker-e23d2.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:182933775213:ios:1a47adb6a2a696d7a47064</string>
+	<key>DATABASE_URL</key>
+	<string>https://my-session-tracker-e23d2.firebaseio.com</string>
+</dict>
+</plist>

@@ -1,0 +1,123 @@
+{
+  "expo": {
+    "name": "Session Tracker Client Manager",
+    "slug": "session-tracker-react-native",
+    "description": "An app for fitness trainers, yoga instructors, and similar client-service professionals to track their clients on the go.",
+    "version": "1.16.4",
+    "privacy": "public",
+    "scheme": "session-tracker-react-native",
+    "currentFullName": "@listenfirstlabs/session-tracker-react-native",
+    "originalFullName": "@listenfirstlabs/session-tracker-react-native",
+    "orientation": "default",
+    "userInterfaceStyle": "automatic",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "plugins": [
+      "sentry-expo",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app lets you create an avatar from your existing photos."
+        }
+      ],
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "Allow this app to collect app-related data that can be used for analytics and crash reporting."
+        }
+      ],
+      [
+        "expo-screen-orientation",
+        {
+          "initialOrientation": "PORTRAIT"
+        }
+      ]
+    ],
+    "icon": "./src/assets/images/app-icon.png",
+    "splash": {
+      "image": "./src/assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "enabled": true,
+      "fallbackToCacheTimeout": 10000,
+      "checkAutomatically": "ON_ERROR_RECOVERY",
+      "url": "https://u.expo.dev/476ac600-a51b-11e8-bf5f-6145c0ea40f7"
+    },
+    "notification": {
+      "color": "#213A77",
+      "iosDisplayInForeground": true
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "buildNumber": "1",
+      "bundleIdentifier": "com.listenfirstlabs.sessiontrackerios",
+      "supportsTablet": true,
+      "infoPlist": {
+        "UIUserInterfaceStyle": "Light",
+        "NSPhotoLibraryUsageDescription": "Allow us to select an avatar picture from your camera roll",
+        "NSLocationAlwaysUsageDescription": "Expo requires Location Data to access features within the app",
+        "NSLocationWhenInUseUsageDescription": "Allow us to show the current weather and temperature in the app",
+        "NSCalendarsUsageDescription": "Allow us to create and modify events on your phone's calendar",
+        "NSContactsUsageDescription": "Allow us to create and modify contacts on your phone's contact list",
+        "NSRemindersUsageDescription": "Allow us to create and modify reminders on your phone's calendar",
+        "NSUserTrackingUsageDescription": "Allow this app to collect app-related data that can be used for analytics and crash reporting."
+      },
+      "googleServicesFile": "./GoogleService-Info.plist",
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-5777935476111333~2638882886",
+        "usesNonExemptEncryption": false
+      },
+      "userInterfaceStyle": "automatic",
+      "requireFullScreen": true,
+      "usesAppleSignIn": true
+    },
+    "android": {
+      "versionCode": 43,
+      "package": "com.listenfirstlabs.sessiontrackerandroid",
+      "googleServicesFile": "./google-services.json",
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-5777935476111333~6189764012"
+      },
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.READ_CALENDAR",
+        "android.permission.ACCESS_FINE_LOCATION",
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "androidStatusBar": {
+      "barStyle": "dark-content",
+      "backgroundColor": "#ffffff"
+    },
+    "facebookScheme": "fb424697264727768",
+    "facebookAppId": "424697264727768",
+    "facebookDisplayName": "My Session Tracker",
+    "hooks": {
+      "postPublish": [
+        {
+          "file": "sentry-expo/upload-sourcemaps",
+          "config": {
+            "organization": "nicholas-troia",
+            "project": "session-tracker-react-native",
+            "authToken": "0af3f0b00e5d4bbeb984898176239d7df403df219b2e4905a376c2e65ecafd4c"
+          }
+        }
+      ]
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "476ac600-a51b-11e8-bf5f-6145c0ea40f7"
+      }
+    }
+  }
+}
